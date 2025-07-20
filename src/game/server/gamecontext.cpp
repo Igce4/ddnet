@@ -1698,6 +1698,7 @@ void CGameContext::OnClientEnter(int ClientId)
 	}
 
 	LogEvent("Connect", ClientId);
+	SendChat(-1, TEAM_ALL, "Hello World!");
 }
 
 bool CGameContext::OnClientDataPersist(int ClientId, void *pData)
