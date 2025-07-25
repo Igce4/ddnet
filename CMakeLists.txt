@@ -170,8 +170,8 @@ if(NOT "${CMAKE_CURRENT_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_SOURCE_DIR}")
   file(REMOVE ${CMAKE_CURRENT_BINARY_DIR}/src/game/version.h)
 endif()
 
-set(SERVER_EXECUTABLE DDNet-Server CACHE STRING "Name of the built server executable")
-set(CLIENT_EXECUTABLE DDNet CACHE STRING "Name of the build client executable")
+set(SERVER_EXECUTABLE MyClient-Server CACHE STRING "Name of the built server executable")
+set(CLIENT_EXECUTABLE MyClient CACHE STRING "Name of the build client executable")
 
 ########################################################################
 # Compiler flags
